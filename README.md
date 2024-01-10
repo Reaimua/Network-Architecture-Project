@@ -27,22 +27,20 @@ The core layer, is designed for high-speed and data transport between different 
 ## 2-Tier Architecture
 The 2-Tier Network Architecture simplifies network design by using 2 essential layers: the Access Layer and the Collapsed Core Layer. This streamlined configuration aims to establish a direct and efficient connection for end users to the internet. The Access Layer facilitates user connectivity, while the Collapsed Core Layer handles the backbone of network traffic, optimizing performance and reliability.
 
-Access Layer
-[See Above](#access-layer)
-- 
-- 
+## Access Layer
+[See Above]
 
 ### Collapsed Core Layer
--
+
 ### Advantages
 -
 ### Disadvantages
 -
 
 # Considerations
-- 
-- d
-- d
-- d
-- d
+- I included link aggregations across the core layer to promote implement the fastest possible data transfer speeds.
+- I paid attention to creating subnets that are related for easy tracking.
+- typically the network security protocols would be encompassed above or below the core layer for added speed.
+- link aggregations to the from the distribution layer to the core (tier-3) is another possiblity for the fast routing protocols.
+- separate VLANs to encompass different parts of the access and distribution layers would be beneficial and can add improved security to the overall network.
   

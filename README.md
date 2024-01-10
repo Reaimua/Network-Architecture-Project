@@ -5,7 +5,7 @@ This Diagram was created in the attempt to gain a deeper understanding of the im
 
 ## 3-Tier Architecture
 The 3-Tier Network Architecture comprises three distinct layers to establish a seamless connection for end users to the internet. This well-structured configuration encompasses the **Access, Distribution, and Core Layers**, each playing a vital role in ensuring efficient and reliable network functionality.
-### [See Above](#access-layer)
+### Access Layer <a name="access-layer"></a>
 The access layer serves as the initial point of connection for end-user devices. It acts as the gateway, facilitating integration of devices such as computers, smartphones, and other endpoints into the broader network infrastructure. The main focus of the access layer is to provide connectivity for users to access and interact with the rest of the network. 
 ### Distribution Layer
 The distribution layer functions as the middleman between the access and core layers. It is responsible for managing and directing network traffic across the core layers and optimizing communication between various parts of the network. Typically this includes enhancement of network security through VLAN segmentation and improved resiliance through redundancy mechanisms. 
@@ -27,7 +27,7 @@ The core layer, is designed for high-speed and data transport between different 
 ## 2-Tier Architecture
 The 2-Tier Network Architecture simplifies network design by using 2 essential layers: the Access Layer and the Collapsed Core Layer. This streamlined configuration aims to establish a direct and efficient connection for end users to the internet. The Access Layer facilitates user connectivity, while the Collapsed Core Layer handles the backbone of network traffic, optimizing performance and reliability.
 ### Access Layer
-- Access Layer <a name="access-layer"></a>
+[See Above](#access-layer)
 - 
 - 
 

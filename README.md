@@ -28,7 +28,7 @@ The core layer, is designed for high-speed and data transport between different 
 The 2-Tier Network Architecture simplifies network design by using 2 essential layers: the Access Layer and the Collapsed Core Layer. This streamlined configuration aims to establish a direct and efficient connection for end users to the internet. The Access Layer facilitates user connectivity, while the Collapsed Core Layer handles the backbone of network traffic, optimizing performance and reliability.
 ### Access Layer
 - Access Layer <a name="access-layer"></a>
-- [See Above](#access-layer)
+- 
 - 
 
 ### Collapsed Core Layer

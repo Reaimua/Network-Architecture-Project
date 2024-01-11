@@ -31,16 +31,25 @@ The 2-Tier Network Architecture simplifies network design by using 2 essential l
 [See Above]
 
 ### Collapsed Core Layer
+The collapsed core layer serves as a central hub for fast and reliable connectivity for the majority of the network traffic. It combines the best characteristics of both the distribution and core layers promoting redundancy and fault tolerance for uninterrupted operation at extremeley high speeds. The design is crafted to optimize throughput and minimize latency, enhancing network resilience in a simple architecture.
 
 ### Advantages
--
+- **Simplicity**: Easier to design and manage, especially suitable for smaller networks or environments with straightforward requirements.
+- **Cost-Effectiveness**: Requires fewer networking devices and infrastructure components, making it more budget-friendly.
+- **Reduced Latency**: Lowers latency by providing a more direct path for communication between access and core layers.
+
 ### Disadvantages
--
+- **Limited Scalability**:May face scalability limitations that affects long-term network growth.
+- **Reduced Redundancy**: Fewer opportunities for redundant pathways, potentially impacting overall network resilience.
+- **Simplified structure**: May compromise redundancy and fault tolerance.
+- **Less Granular Control**: Fewer layers result in less control over network segmentation and traffic management.
+- **Potential for Bottlenecks**: Simplification may lead to challenges in optimizing traffic flow, causing potential bottlenecks.
 
 # Considerations
-- I included link aggregations across the core layer to promote implement the fastest possible data transfer speeds.
-- I paid attention to creating subnets that are related for easy tracking.
-- typically the network security protocols would be encompassed above or below the core layer for added speed.
-- link aggregations to the from the distribution layer to the core (tier-3) is another possiblity for the fast routing protocols.
-- separate VLANs to encompass different parts of the access and distribution layers would be beneficial and can add improved security to the overall network.
-  
+
+- Larger and more complex networks favor a 3-tier architecture, while smaller networks opt for the simplicity of a 3-tiered system.
+- Utilized link aggregations across the core layer to ensure the fastest data transfer speeds.
+- Carefully determined related subnets for easy tracking and management.
+- Positioned network security protocols above or below the core layer to enhance overall speed.
+- Explored the option of link aggregations from the distribution layer to the core (tier-3) for accelerated routing protocols.
+- Recognized opportunity to implement separate VLANs for distinct parts of the access and distribution layers, adding improved security to the network.
